@@ -1,6 +1,6 @@
 import Footer from "./Footer";
 import HeroSection from "./HeroSection/HeroSection";
-import MeetTheTeam from "./MeetTheTeam/MeetTheTeam";
+
 import Navbar from "./Navbar/Navbar";
 import WhyDocVault from "./WhyDocVault/WhyDocVault";
 
@@ -10,7 +10,7 @@ const LandingPage = () => {
       <Navbar />
       <HeroSection />
       <WhyDocVault />
-      <MeetTheTeam />
+     
       <Footer />
     </div>
   );

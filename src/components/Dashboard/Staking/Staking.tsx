@@ -1110,7 +1110,7 @@ const Staking: React.FC = () => {
 
     try {
       const response = await fetch(
-        `https://docvault.onrender.com/api/credential-proof/${credentialId}`
+        `https://docvault-solana.onrender.com/api/credential-proof/${credentialId}`
       );
 
       if (!response.ok) {

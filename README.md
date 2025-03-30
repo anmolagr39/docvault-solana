@@ -39,7 +39,7 @@
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/pranayjalan254/docvault-solana.git
+   git clone https://github.com/anmolagr39/docvault-solana.git
    ```
 2. Navigate to the project directory:
    ```bash

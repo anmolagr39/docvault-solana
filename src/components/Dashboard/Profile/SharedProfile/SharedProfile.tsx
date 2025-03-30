@@ -54,7 +54,7 @@ const SharedProfile: React.FC = () => {
 
         // Fetch user from backend
         const userResponse = await fetch(
-          `https://docvault.onrender.com/api/users/${decryptedPublicKey}`
+          `https://docvault-solana.onrender.com/api/users/${decryptedPublicKey}`
         );
         if (userResponse.ok) {
           const { user } = await userResponse.json();

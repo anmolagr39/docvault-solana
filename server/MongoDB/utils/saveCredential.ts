@@ -16,7 +16,7 @@ export async function saveCredentialUpload(
     }
 
     const response = await fetch(
-      "https://docvault.onrender.com/api/upload-credential",
+      "https://docvault-solana.onrender.com/api/upload-credential",
       {
         method: "POST",
         body: formData,
